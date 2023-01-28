@@ -7,14 +7,23 @@
 * 하루에 하나의 토픽을 정해 답변을 기록하고, 답변이 적절했는지 고민해본다.
 * 거창한 키워드가 아니여도 좋다. 간단한 키워드로써, 내가 CS, DATA, NETWORK등.. 다양하게 컴퓨터 관련이라면 하루에 하나씩 해보자
 
-<details><summary style="color:skyblue">polymorphism - 다형성(동질 이상)</summary>
+<details><summary style="color:skyblue">Polymorphism - 다형성(동질 이상)</summary>
 <p>
 
 다형성이란 어떤 변수, 메소드가 상황에 따라 다른 결과를 내는 것
 
 * 오버 로딩- 같은 메서드 이름 / 다른 인자 목록 / 다수의 메서드 = **재정의**
 * 오버 라이딩 - 같은 메서드 이름 / 같은 인자 목록 / 상위클래스의 메서드 재정의 = **중복정의**
-
 </p>
 </details>
 
+<details><summary style="color:skyblue">Encapsulation - 캡슐화</summary>
+<p>
+
+public - 모두 / protected 상속, 같은 패키지 내 클래스 / default 같은 패키지 내 클래스 / private - 본인
+
+* 실제로 구현 부분을 외부에 드러나지 않도록 하는 것
+* 변수와 메소드를 하나로 묶음
+* 데이터를 외부에서 직접 접근하지 않고 함수를 통해서만 접근
+</p>
+</details>
