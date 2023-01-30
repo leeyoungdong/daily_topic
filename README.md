@@ -41,3 +41,23 @@ public - 모두 / protected 상속, 같은 패키지 내 클래스 / default 같
 * 상위 클래스가 너무 빈약하면, 불필요한 형변환이 자주 일어난다.
 </p>
 </details>
+
+<details><summary style="color:skyblue">OOP 5원칙</summary>
+<p>
+
+S (SRP : Single Responsibility Principle)
+한 클래스는 하나의 책임만 가져야 함.
+
+O (OCP : Open/Closed Principle)
+확장에는 열려(Open) 있으나, 변경에는 닫혀(Closed)있어야 함.
+
+L (LSP : Liskov’s Substitution Principle)
+프로그램의 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 함.
+
+I (ISP : Interface Segregation Principle)
+특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 남.
+
+D (DIP : Dependency Inversion Principle)
+추상화에 의존한다. 구체화에 의존하면 안됨.
+</p>
+</details>
