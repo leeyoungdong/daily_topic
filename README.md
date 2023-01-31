@@ -61,3 +61,25 @@ D (DIP : Dependency Inversion Principle)
 추상화에 의존한다. 구체화에 의존하면 안됨.
 </p>
 </details>
+
+<details><summary style="color:skyblue">Devops / MLops</summary>
+<p>
+
+**데브옵스** -  소프트웨어의 개발(Development)과 운영(Operations)의 합성어
+* 소프트웨어 개발자와 정보기술 전문가 간의 소통, 협업 및 통합을 강조하는 개발 환경이나 문화
+
+* 이점 - 속도 / 신속한 제공 / 안정성 / 확장가능 / 협업강화 / 보안
+
+**ML옵스** - 머신러닝 (Machine Learning)의 약자인 ML과 Operations의 약자인 Ops가 합쳐져 탄생한 단어로, 모델 개발 시스템과 운영 시스템을 통합하여 더욱 유연하고 효율적인 개발을 가능케 하는 도구이자 개발 환경
+
+* ML 옵스에서는 코드 저장 및 배포 단계에 앞서 데이터 셋 분석 및 모델 개발을 담당하는 ML Research 팀의 역할이 추가
+
+**주요 기능 및 기술**
+* 모델관리 / 연구 과정 중 수행한 모델들과 그 성능을 기록하는 행위
+* 모델 서빙 /  모델이 성공적으로 저장되면, 모델을 배포 환경에 서빙
+* 백엔드 엔지니어 (Back-end Engineer)가 구축한 비즈니스 로직 서버에서 모델이 필요한 부분에 대해 API (Application Programming Interface) 형태로 호출하는 API 서빙
+* 여러 데이터를 한 번에 처리하는 Batch 서빙
+* 모델 모니터링 / 모델 서빙 단계에서는 외부 소프트웨어 컴포넌트가 API를 통해 모델로 추론 요청을 보내고, 모델은 추론 결과를 응답으로 보내는 사이클이 진행 모니터링
+* 지속적 학습 /  Continuous Training (CT)과정을 통해 변화하는 데이터에 맞추어 모델을 지속적으로 학습하고 배포해, 모델의 성능을 유지
+</p>
+</details>
