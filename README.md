@@ -83,3 +83,13 @@ D (DIP : Dependency Inversion Principle)
 * 지속적 학습 /  Continuous Training (CT)과정을 통해 변화하는 데이터에 맞추어 모델을 지속적으로 학습하고 배포해, 모델의 성능을 유지
 </p>
 </details>
+
+<details><summary style="color:skyblue">CISC / RISC</summary>
+<p>
+CPU가 이해할 수 있는 명령어 집합인 ISA종류이다.
+
+* CISC(Complex Instruction Set Computer) - 필요한 명령어 셋을 갖추도록 설계된 마이크로 프로세서에 관련된 용어로, 요구되는 능력을 가장 효율적인 방법으로 제공. 트랜지스터 집적에 있어서 효율성이 떨어지고 전력소모가 크며 속도가 느리고 비쌈.
+
+* RISC(Reduce Instruction Set Computer) - 적은수의 컴퓨터 명령어를 수행하도록 설계된 마이크로프로세서로써 CISC보다 좀더 빠르게 동작, CPU의 명령어를 최소화하여 단순하게 제작된 프로세서, 효율특화된 CPU구조. 하드웨어가 단순하지만 소프트웨어가 복잡하고 크기가 커지는것이 단점. 전력소모가 적고 속도가 빠르며 저렴
+</p>
+</details>
