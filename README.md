@@ -93,3 +93,18 @@ CPU가 이해할 수 있는 명령어 집합인 ISA종류이다.
 * RISC(Reduce Instruction Set Computer) - 적은수의 컴퓨터 명령어를 수행하도록 설계된 마이크로프로세서로써 CISC보다 좀더 빠르게 동작, CPU의 명령어를 최소화하여 단순하게 제작된 프로세서, 효율특화된 CPU구조. 하드웨어가 단순하지만 소프트웨어가 복잡하고 크기가 커지는것이 단점. 전력소모가 적고 속도가 빠르며 저렴
 </p>
 </details>
+
+<details><summary style="color:skyblue">HashMap / HashTable</summary>
+<p>
+
+Hash - 키_벨류로 데이터를 저장하는 자료 구조중 하나로, 빠르게 데이터를 검색할 수 있도록지원. 해시 함수를 통해 '키'와'벨류'로 저장되는 위치를 결정하므로 사용자는 위치를 알수 없고, 삽입되는 순서와 위치는 관계가 없음.
+
+* HashMap - 동기화를 지원하지 않기(병렬처리 불가능)때문에 속도가 빠르고, Null 값을 허용 / Not-Tread-safe / Enumeration 을 지원하지 않음 / 보조해시를 사용해 테이블에 비해 충돌이 덜 발생
+
+* HashTable - 동기화(병렬 처리 가능)를 지원하고, Null 값을 허용하지않음 / Tread-safe / Not Fail-Fast Enumeration지원 /
+
+%fail-fast 방식 - 작업 중 오류 발생시 즉시 중단 후 오류 출력
+
+%fail-safe 방식 - 작업 중 오류가 발생해도, 작업 중단 X
+</p>
+</details>
